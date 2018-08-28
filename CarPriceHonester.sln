@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPriceHonester.API", "CarPriceHonester.API\CarPriceHonester.API.csproj", "{1084C0B3-BEC7-4F30-9E42-9349F5F51BE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPriceHonester.DAL", "CarPriceHonester.DAL\CarPriceHonester.DAL.csproj", "{8CD18143-17FD-4182-B862-F1C1F2B41CD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPriceHonester.DAL", "CarPriceHonester.DAL\CarPriceHonester.Dal.csproj", "{8CD18143-17FD-4182-B862-F1C1F2B41CD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPriceHonester.Entity", "CarPriceHonester.Entity\CarPriceHonester.Entity.csproj", "{181A600A-0634-4112-8147-D71B0F9B4795}"
 EndProject
