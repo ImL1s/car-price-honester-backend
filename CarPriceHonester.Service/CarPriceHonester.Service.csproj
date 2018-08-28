@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CarInfo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarPriceHonester.Entity\CarPriceHonester.Entity.csproj" />
+    <ProjectReference Include="..\CarPriceHonester.DAL\CarPriceHonester.DAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="4.1.0" />
+  </ItemGroup>
+</Project>

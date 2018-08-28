@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0-preview1-35029" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0-preview1-35029" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarPriceHonester.DAL\CarPriceHonester.DAL.csproj" />
+    <ProjectReference Include="..\CarPriceHonester.Entity\CarPriceHonester.Entity.csproj" />
+    <ProjectReference Include="..\CarPriceHonester.Service\CarPriceHonester.Service.csproj" />
+  </ItemGroup>
+</Project>

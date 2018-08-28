@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Table\" />
+    <Folder Include="modal\" />
+    <Folder Include="Exception\" />
+    <Folder Include="Constant\" />
+  </ItemGroup>
+</Project>
