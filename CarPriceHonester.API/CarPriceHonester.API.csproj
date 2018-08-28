@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CarPriceHonester.DAL\CarPriceHonester.DAL.csproj" />
     <ProjectReference Include="..\CarPriceHonester.Entity\CarPriceHonester.Entity.csproj" />
     <ProjectReference Include="..\CarPriceHonester.Service\CarPriceHonester.Service.csproj" />
+    <ProjectReference Include="..\CarPriceHonester.DAL\CarPriceHonester.Dal.csproj" />
   </ItemGroup>
 </Project>
